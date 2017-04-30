@@ -1,7 +1,8 @@
 import setuptools
 
 requires = [
-    "flake8 > 3.0.0",
+    'isort',
+    'flake8>=3.0.0',
 ]
 
 setuptools.setup(

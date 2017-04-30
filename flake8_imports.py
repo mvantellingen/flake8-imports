@@ -32,7 +32,6 @@ class ImportsPlugin(object):
         if isort_obj.incorrectly_sorted:
             for line_number in self.get_line_numbers(isort_obj):
                 yield (line_number, 0, self.format_message('I100'), '')
-        return []
 
     def format_message(self, code):
         return ' '.join((code, self.messages[code]))
