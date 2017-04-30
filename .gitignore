@@ -1,5 +1,9 @@
 *.pyc
 .cache/
 .tox/
+.coverage.*
+.coverage
 *.egg-info
 dist/
+.vscode/
+build/

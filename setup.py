@@ -21,6 +21,7 @@ setuptools.setup(
     author_email="michaelvantellingen@gmail.com",
     url="https://gitlab.com/mvantellingen/flake8-imports",
     install_requires=requires,
+    package_dir={'': 'src'},
     py_modules=['flake8_imports'],
     entry_points={
         'flake8.extension': [
