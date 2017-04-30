@@ -1,3 +1,5 @@
+import re
+
 import setuptools
 
 requires = [
@@ -5,11 +7,16 @@ requires = [
     'flake8>=3.0.0',
 ]
 
+with open('README.rst') as fh:
+    long_description = re.sub(
+        '^.. start-no-pypi.*^.. end-no-pypi', '', fh.read(), flags=re.M | re.S)
+
 setuptools.setup(
     name="flake8_imports",
     license="MIT",
     version="0.1.0",
     description="isort extension flake8",
+    long_description=long_description,
     author="Michael van Tellingen",
     author_email="michaelvantellingen@gmail.com",
     url="https://gitlab.com/mvantellingen/flake8-imports",
