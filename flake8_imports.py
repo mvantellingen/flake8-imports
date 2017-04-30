@@ -9,7 +9,7 @@ from isort import SortImports
 
 class ImportsPlugin(object):
     name = 'flake8_imports'
-    version = '0.1.0'
+    version = '0.1.1'
     messages = {
         'I100': "import statement not correctly ordered"
     }
