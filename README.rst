@@ -20,8 +20,7 @@ Status
 
 Installation
 ------------
-
-.. code-block: bash
+.. code-block:: bash
 
   pip install flake8-imports
 
