@@ -12,6 +12,9 @@ Status
 .. image:: https://travis-ci.org/mvantellingen/flake8-imports.svg?branch=master
     :target: https://travis-ci.org/mvantellingen/flake8-imports
 
+.. image:: https://codecov.io/gh/mvantellingen/flake8-imports/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/mvantellingen/flake8-imports
+  
 .. image:: https://img.shields.io/pypi/v/flake8-imports.svg
     :target: https://pypi.python.org/pypi/flake8-imports/
 
